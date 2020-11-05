@@ -1,0 +1,40 @@
+h3 {
+    color: #9e0b0b;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortableTitles {
+    color: #edd651;
+
+}
+
+.sortableItems {
+    color:  #9e0b0b
+}
+
+.warning {
+    background-color: #da8a8a;
+}
+
+table {
+  color: #111;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 12px 0;
+  min-width: 300px;
+  background: #b5dff7;
+}
+
+.header-row {
+    background:#2272a1;
+    color: #fff
+}
+
+th, td {
+    text-align: left;
+    margin: 5px 10px;
+    padding: 6px;
+}
