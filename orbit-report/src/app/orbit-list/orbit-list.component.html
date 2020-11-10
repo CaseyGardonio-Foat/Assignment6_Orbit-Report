@@ -11,7 +11,6 @@
    <tr *ngFor="let satellite of satellites">
         <td class="sortable sortableItems">{{satellite.name}}</td>
         <td [class.warning]="satellite.shouldShowWarning()">{{satellite.type}}</td>
-        <!--[class.warning]='shouldShowWarning()'or [class.warning]=satellite.shouldShowWarning() or [class.warning]='satellite.shouldShowWarning()'insert in td tag above-->
         <td>{{satellite.operational}}</td>
         <td>{{satellite.orbitType}}</td>
         <td>{{satellite.launchDate}}</td>
