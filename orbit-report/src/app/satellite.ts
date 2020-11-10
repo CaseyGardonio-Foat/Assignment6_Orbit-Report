@@ -17,16 +17,15 @@ export class Satellite {
         // }
 
     };
+    shouldShowWarning() {
+        if(this.type === 'Space Debris') {
+            return true;
+        } else{
+        return false;
+        };
+        console.log('shouldShowWarning called successfully')
+    };
 };
 
-
- 
-    // shouldShowWarning(): boolean {
-    //     if(!this.type === 'Space Debris') {
-    //         return false;
-    //     };
-    //     return true;
-    //     console.log('shouldShowWarning called successfully')
-    // };
 
 
